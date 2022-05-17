@@ -33,6 +33,7 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 
 
 ### News
-*2022-5-17* Update the State-of-the-Art models, such as NAFNet, Restormer, MPRNet, MAXIM, VRT.
+ * *2022-5-17* Update the State-of-the-Art models, such as NAFNet, Restormer, MPRNet, HINet, MIMO-UNet
+
 
 
