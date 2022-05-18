@@ -1,6 +1,3 @@
-# ------------------------------------------------------------------------
-# Copyright (c) 2022 Murufeng. All Rights Reserved.
-# ------------------------------------------------------------------------
 '''
    Restormer: Efficient Transformer for High-Resolution Image Restoration
    作者： Syed Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, and Ming-Hsuan Yang
