@@ -35,5 +35,23 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 ### News
  * *2022-5-17* Update the State-of-the-Art models, such as NAFNet, Restormer, MPRNet, HINet, MIMO-UNet
 
+### Model Zoo
+
+
+### Experiments 
+
+### Image Restoration Tasks 
+
+| Task                                 | Dataset | Train/Test Instructions                                                
+| :----------------------------------- | :------ | :---------------------- | 
+| Image Deblurring                     | GoPro   | [link](./docs/GoPro.md) | 
+| Image Denoising                      | SIDD    | [link](./docs/SIDD.md)  | 
+| Image Deblurring with JPEG artifacts | REDS    | [link](./docs/REDS.md)  | 
+| Image Derain                         | Rain13K    | [link](./docs/Rain.md)  |
+| Stereo Image Super-Resolution | Flickr1024+Middlebury    | [link](./docs/StereoSR.md) 
+
+### Citations
+If you find this project is useful, please give me a star and fork!
+
 
 
