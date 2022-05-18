@@ -167,16 +167,6 @@ class NAFNetLocal(Local_Base, NAFNet):
             self.convert(base_size=base_size, train_size=train_size, fast_imp=fast_imp)
 
 
-def test(net):
-    import numpy as np
-    total_params = 0
-
-    for x in filter(lambda p: p.requires_grad, net.parameters()):
-        total_params += np.prod(x.data.numpy().shape)
-    print("Total number of params", total_params)
-    print("Total layers", len(list(filter(lambda p: p.requires_grad and len(p.data.size()) > 1, net.parameters()))))
-
-
 if __name__ == "__main__":
     img_channel = 3
     width = 32
@@ -187,7 +177,6 @@ if __name__ == "__main__":
 
     print('enc blks', enc_blks, 'middle blk num', middle_blk_num, 'dec blks', dec_blks, 'width', width)
 
-    # using('start . ')
     model = NAFNet(img_channel=img_channel, width=width, middle_blk_num=middle_blk_num,
                   enc_blk_nums=enc_blks, dec_blk_nums=dec_blks)
 
@@ -197,8 +186,6 @@ if __name__ == "__main__":
     # input = torch.randn(1, 3, 32, 32)
     y = model(input)
     print(y.size())
-
-    test(model)
 
     from thop import profile
 
