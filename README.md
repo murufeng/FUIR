@@ -53,5 +53,15 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 ### Citations
 If you find this project is useful, please give me a star and fork!
 
+### Contact
 
+If you have any questions, please contact me. 2394849504@qq.com
 
+---
+
+<details>
+<summary>statistics</summary> 
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=murufeng/FUIR)
+
+</details>
