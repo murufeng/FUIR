@@ -37,6 +37,49 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 
 ### Model Zoo
 
+### Model Zoo 
+
+<details>
+<summary>NAFNet</summary> 
+
+</details>
+
+<details>
+<summary>VRT</summary> 
+
+</details>
+
+<details>
+<summary>Restormer</summary> 
+
+</details>
+
+<details>
+<summary>SCUNet</summary> 
+
+</details>
+
+<details>
+<summary>HINet</summary> 
+
+</details>
+
+
+<details>
+<summary>MPRNet</summary> 
+
+</details>
+
+<details>
+<summary>MIMONet</summary> 
+
+</details>
+
+<details>
+<summary>SwinIR</summary> 
+
+</details>
+
 
 ### Experiments 
 
