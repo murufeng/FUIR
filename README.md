@@ -37,8 +37,6 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 
 ### Model Zoo
 
-### Model Zoo 
-
 <details>
 <summary>NAFNet</summary> 
 
