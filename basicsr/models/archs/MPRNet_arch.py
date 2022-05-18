@@ -1,13 +1,8 @@
-
-# ------------------------------------------------------------------------
-# Copyright (c) 2022 Murufeng. All Rights Reserved.
-# ------------------------------------------------------------------------
 '''
    Multi-Stage Progressive Image Restoration
    作者：Syed Waqas Zamir, Aditya Arora, Salman Khan, Munawar Hayat, Fahad Shahbaz Khan, Ming-Hsuan Yang, and Ling Shao
    链接：https://arxiv.org/abs/2102.02808
 '''
-
 
 import torch
 import torch.nn as nn
