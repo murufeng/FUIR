@@ -43,17 +43,12 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 </details>
 
 <details>
-<summary>VRT</summary> 
-
-</details>
-
-<details>
 <summary>Restormer</summary> 
 
 </details>
 
 <details>
-<summary>SCUNet</summary> 
+<summary>VRT</summary> 
 
 </details>
 
@@ -65,6 +60,11 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 
 <details>
 <summary>MPRNet</summary> 
+
+</details>
+
+<details>
+<summary>SCUNet</summary> 
 
 </details>
 
