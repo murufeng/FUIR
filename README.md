@@ -38,7 +38,7 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 ### Model Zoo
 
 <details>
-<summary>NAFNet</summary> 
+<summary>#### NAFNet</summary> 
 网络模块结构如下所示：
 
 ![](./figures/NAFNet_block.jpg)
