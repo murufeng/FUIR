@@ -39,42 +39,145 @@ See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the 
 
 <details>
 <summary>NAFNet</summary> 
+网络模块结构如下所示：
+
+![](./figures/NAFNet_block.jpg)
+
+模块设计如下：
+
+![](./figures/nafnet_fig_1.jpg)
+
+两大经典图像恢复实验结果如下：
+1. Image Denoising （在SIDD数据集实现SOTA):
+
+![](./figures/nafnet_tab_1.jpg)
+
+2. Image Deblurring （在GoPro数据集实现SOTA):
+
+![](./figures/nafnet_tab_2.jpg)
+
+[模型训练配置](./docs)
+
+[模型训练代码](./options/train)
 
 </details>
 
 <details>
 <summary>Restormer</summary> 
 
-</details>
+网络模块结构如下所示：
+![](./figures/restormer_block.jpg)
 
-<details>
-<summary>VRT</summary> 
+三大图像恢复实验结果对比图：
+![](./figures/restormer_fig_1.jpg)
+
+1. Image Deraining(目前保持SOTA):
+
+![](./figures/restormer_tab_1.jpg)
+![](./figures/restormer_vis_1.jpg)
+
+2. Image Deblurring:
+
+![](./figures/restormer_tab_2.jpg)
+
+3. Image Denoising:
+
+![](./figures/restormer_tab_3.jpg)
+
+[模型训练配置](./docs)
+
+[模型训练代码](./options/train)
 
 </details>
 
 <details>
 <summary>HINet</summary> 
 
-</details>
+网络模块结构如下所示：
+![](./figures/HINet.jpg)
+![](./figures/HINet_block.jpg)
 
+#### 三大图像恢复实验结果：
+1. Image Denoising:
+
+![](./figures/hinet_tab_1.jpg)
+
+2. Image Deblurring:
+
+![](./figures/hinet_tab_2.jpg)
+
+3. Image Deraining:
+
+![](./figures/hinet_tab_3.jpg)
+
+[模型训练配置](./docs)
+
+[模型训练代码](./options/train)
+
+</details>
 
 <details>
 <summary>MPRNet</summary> 
 
+网络模块结构如下所示：
+![](./figures/mprnet.jpg)
+
+#### 三大图像恢复实验结果：
+
+1. Image Deraining:
+![](./figures/mprnet_tab_1.jpg)
+![](./figures/mprnet_derain.jpg)
+2. Image Deblurring:
+![](./figures/mprnet_tab_2.jpg)
+3. Image Denoising:
+![](./figures/mprnet_tab_3.jpg)
+
+[模型训练配置](./docs)
+
+[模型训练代码](./options/train)
+
+</details>
+
+
+<details>
+<summary>MIMONet</summary> 
+
+网络模块结构如下所示：
+
+![](./figures/mimo_unet.jpg)
+
+图像去模糊实验结果与可视化图：
+
+![](./figures/mimo_unet_tab_1.jpg)
+
+![](./figures/mimo_unet_fig_1.jpg)
+
+</details>
+
+<details>
+<summary>MIRNet</summary> 
+
+网络模块结构如下所示：
+![](./figures/mirnet_network.jpg)
+
+![](./figures/mirnet_att.jpg)
+
+![](./figures/mirnet_skff.jpg)
 </details>
 
 <details>
 <summary>SCUNet</summary> 
 
-</details>
+网络模块结构如下所示：
 
-<details>
-<summary>MIMONet</summary> 
+![](./figures/SCUNet.jpg)
 
-</details>
+部分实验结果如下：
+![](./figures/scunet_tab_2.jpg)
 
-<details>
-<summary>SwinIR</summary> 
+![](./figures/SCUNet_vis.jpg)
+
+![](./figures/scunet_vis_2.jpg)
 
 </details>
 
