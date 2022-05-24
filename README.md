@@ -29,7 +29,7 @@
 
 ### Installation
 
-See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the installation of dependencies required to run FUIR.
+See [INSTALL.md](https://github.com/murufeng/FUIR/blob/main/INSTALL.md) for the installation of dependencies required to run [FUIR](https://github.com/murufeng/FUIR).
 
 
 ### News
